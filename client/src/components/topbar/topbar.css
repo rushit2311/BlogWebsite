@@ -1,0 +1,129 @@
+/* Styles for the top section */
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffffd1;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+    
+}
+
+.topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    font-weight: 300;
+    transition: transform 0.3s,color 0.3s,font-weight 0.3s;
+}
+.topIcon:hover {
+    transform: scale(1.2);
+    font-weight: 500;
+    color: #ff5e5e;
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topLeft,
+.topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.topListItem {
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: transform 0.3s,color 0.3s,font-weight 0.3s;
+}
+
+.topListItem:hover {
+    transform: scale(1.2);
+    font-weight: 500;
+    color: #ff5e5e;
+}
+
+@media only screen and (max-width: 767px){
+    .top {
+        width: 100%;
+        height: 50px;
+        background-color: #ffffffd1;
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        font-family: 'Josefin Sans', sans-serif;
+        z-index: 999;
+        justify-content: space-between;
+        padding: 0 10px;
+        font-size: 10px;
+    }
+    
+    .topIcon {
+        font-size: 12px;
+        margin-right: 10px;
+        color: #444;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .topCenter {
+        flex: 2;
+        text-align: center;
+    }
+    
+    .topLeft,
+    .topRight {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topImg {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .topList {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .topListItem {
+        cursor: pointer;
+        margin-right: 10px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

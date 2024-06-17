@@ -1,0 +1,108 @@
+.register{
+   height: calc(100vh-50px);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 279px;
+   background: linear-gradient(
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)
+    ),url("https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&w=1600");
+   background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm>label{
+    margin: 10px 0;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 767px){
+    .register {
+        height: calc(100vh - 50px);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+          ),
+          url("https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&w=1600");
+        background-size: cover;
+      }
+      
+      .registerTitle {
+        font-size: 30px;
+      }
+      
+      .registerForm {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .registerForm > label {
+        margin: 10px 0;
+      }
+      
+      .registerInput {
+        padding: 10px;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+      }
+      
+      .registerButton {
+        margin-top: 20px;
+        cursor: pointer;
+        background-color: teal;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      
+      .registerLoginButton {
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: lightcoral;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+      }
+      
+}

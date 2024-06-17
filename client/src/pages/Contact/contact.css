@@ -1,0 +1,26 @@
+/* CompanyDetailsPage.css */
+
+.company-details-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .company-details {
+    text-align: center;
+  }
+  
+  .company-details h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .company-details p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  /* Add more styling as needed */
+  
